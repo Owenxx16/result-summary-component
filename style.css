@@ -1,0 +1,192 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 18px;
+  background: hsl(0, 0%, 90%);
+  font-family: 'Hanken Grotesk';
+}
+.container{
+  width: 600px;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15rem 30rem 2rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+.rsc{
+  width: 300px;
+  height: 100%;
+  background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  border-radius: 20px;
+  float: left;
+}
+.rsc h3{
+  text-align: center;
+  margin-top: 20px;
+  color: hsl(241, 100%, 80%);
+  font-weight: 700;
+}
+.rsc .circle {
+  border-radius: 130px;
+  width: 180px;
+  height: 180px;
+  background: linear-gradient(to bottom,hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0.2));
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 50px 0px hsl(241, 81%, 54%);
+  border: none;
+}
+.rsc .circle .p1{
+  margin-bottom: -40px;
+  margin-left: 47px;
+  line-height: 160px;
+  font-size: 80px;
+  font-weight: 800;
+  color: hsl(0, 0%, 100%) ;
+}
+.rsc .circle .p2{
+  margin-left: 65px;
+  font-weight: 500;
+  color: hsl(241, 100%, 80%);
+}
+.rsc .para h2{
+  text-align: center;
+  margin-bottom: 15px;
+  color: hsl(0, 0%, 100%);
+}
+.rsc .para p{
+  text-align: center;
+  margin-bottom: 10px;
+  color: hsl(241, 100%, 80%);
+
+}
+.summ{
+  width: 300px;
+  height: 100%;
+  float: right;
+}
+.summ h3{
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+.react{
+  height: 50px;
+  width: 240px;
+  margin-left: 30px;
+  background-color: hsla(0, 100%, 67%,0.1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.react img{
+  margin-left: 5px;
+  margin-bottom: -5px;
+}
+.react span{
+  line-height: 50px;
+  margin-left: 3px;
+}
+.react .ret{
+  margin-right: 60px;
+}
+.memo{
+  height: 50px;
+  width: 240px;
+  margin-left: 30px;
+  background-color: hsla(39, 100%, 56%,0.1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.memo img{
+  margin-left: 5px;
+  margin-bottom: -5px;
+}
+.memo span{
+  line-height: 50px;
+  margin-left: 3px;
+}
+.memo .memi{
+  margin-right: 63px;
+}
+.ver{
+  height: 50px;
+  width: 240px;
+  margin-left: 30px;
+  background-color: hsla(166, 100%, 37%,0.1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.ver img{
+  margin-left: 5px;
+  margin-bottom: -5px;
+}
+.ver span{
+  line-height: 50px;
+  margin-left: 3px;
+}
+.ver .verb{
+  margin-right: 75px;
+}
+.vis{
+  height: 50px;
+  width: 240px;
+  margin-left: 30px;
+  background-color: hsla(234, 85%, 45%,0.1);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.vis img{
+  margin-left: 5px;
+  margin-bottom: -5px;
+}
+.vis span{
+  line-height: 50px;
+  margin-left: 3px;
+}
+.vis .vsl{
+  margin-right: 75px;
+}
+.summ button{
+  height: 50px;
+  width: 240px;
+  margin-left: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color:hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+}
+.ret{
+  color:hsl(0, 100%, 67%) ;
+  font-weight: 700;
+}
+.memi{
+  color: hsl(39, 100%, 56%);
+  font-weight: 700;
+}
+.verb{
+  color: hsl(166, 100%, 37%);
+  font-weight: 700;
+}
+.vsl{
+  color: hsl(234, 85%, 45%) ;
+  font-weight: 700;
+}
+.numb{
+  font-weight: 800;
+}
+button:hover{
+  cursor: pointer;
+  background: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
